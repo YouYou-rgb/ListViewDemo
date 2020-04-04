@@ -35,38 +35,4 @@ public class MainActivity extends AppCompatActivity {
         //将数据和布局关联，就是将数据显示到列表中
         lv.setAdapter(adapter);
     }
-
-    class Fruit {
-        String name;
-        String picture;
-
-        public Fruit(String name, String picture) {
-            this.name = name;
-            this.picture = picture;
-        }
-
-        public String getName() {
-            return name;
-        }
-
-        public void setName(String name) {
-            this.name = name;
-        }
-
-        public String getPicture() {
-            return picture;
-        }
-
-        public void setPicture(String picture) {
-            this.picture = picture;
-        }
-
-        @Override
-        public String toString() {
-            return "Fruit{" +
-                    "name='" + name + '\'' +
-                    ", picture='" + picture + '\'' +
-                    '}';
-        }
-    }
 }
